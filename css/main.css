@@ -1,0 +1,84 @@
+.wrapper {
+    max-width: 50rem;
+    width: 100%;
+    margin: auto;
+}
+
+form {
+    font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border: 2px solid #DDD;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+}
+
+legend {
+    font-size: 2rem;
+    border: 2px solid #DDD;
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.box {
+    padding: 10px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #DDD;
+    border-radius: 4px;
+    height: 3em;
+    margin-top: 15px
+    
+}
+
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #DDD;
+    border-radius: 4px;
+    height: 6em;
+    margin-top: 15px; 
+}
+
+button {
+    background-color: #6495ED;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+}
+
+@media only screen and (min-width: 25rem) {
+    #fn-box, #email-box {
+        float: left;
+        width: 50%;
+    }
+    
+    #message-box {
+        box-sizing: border-box;
+        clear: both;
+    }
+    
+    button {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (min-width: 40rem) {
+        #fn-box, #email-box {
+        width: 50%;
+    }
+}
